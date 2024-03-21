@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Page</title>
+    <link rel="stylesheet" href="stylesheets/register.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="image"></div>
+      <div class="regbox">
+        <div class="form">
+          <h1>Sign Up</h1>
+          <p>Full Name</p>
+          <input class="textinput" type="text" name="fullName" id="fullName" placeholder="Full Name" />
+          <p>Username</p>
+          <input class="textinput" type="text" name="username" id="username" placeholder="Username" />
+          <p>Email</p>
+          <input class="textinput" type="email" name="email" id="email" placeholder="Email" />
+          <p>Password</p>
+          <input class="textinput" type="password" name="password" id="password" placeholder="Password" />
+          <p>Confirm Password</p>
+          <input class="textinput" type="password" name="cpassword" id="cpassword" placeholder="Confirm Password"/>
+          <pre><input class="check" type="checkbox" name="check"> I Agree to The Terms And Conditions</pre>
+          <div class="signbtn">
+            <input id="regbtn" class="logbtn" type="submit" name="submit" value="sign-up" />
+            <a href="login.html">LOG-IN &#8594;</a>
+          </div>
+          <div class="error" id="error"></div>
+        </div>
+      </div>
+    </div>
+    <script src="javascripts/register.js"></script>
+  </body>
+</html>

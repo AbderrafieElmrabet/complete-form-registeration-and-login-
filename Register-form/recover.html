@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Page</title>
+    <link rel="stylesheet" href="stylesheets/recover.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="regbox">
+        <div id="form" class="form">
+          <h1>Recover your account</h1>
+          <p>Email adress</p>
+          <input class="textinput" type="text" name="email" id="email" placeholder="Email adress"/>
+          <div class="signbtn">
+            <input id="verbtn" class="logbtn" type="submit" value="Verify" />
+            <a href="login.html">LOG-IN &#8594;</a>
+          </div>
+        </div>
+        <div id="recform" class="form">
+          <h1>Recover your account</h1>
+          <h4>we sent you a verification code to your email !</h4>
+          <p>please enter the verification code you got in the input below.</p>
+          <input class="textinput" id="recoverycode" type="text" name="recoverycode" placeholder="enter ecovery code here!">
+          <div class="signbtn">
+            <input class="logbtn" type="submit" id="recbtn" value="Recover" />
+            <a href="login.html">LOG-IN &#8594;</a>
+          </div>
+        </div>
+        <div id="resetform" class="form">
+          <h1>Reset your password</h1>
+          <p>New password</p>
+          <input class="textinput" type="text" name="newpass" id="newpass" placeholder="New password"/>
+          <p>Confirm new password</p>
+          <input class="textinput" type="text" name="cnewpass" id="cnewpass" placeholder="New password"/>
+          <div class="signbtn">
+            <input id="resbtn" class="logbtn" type="submit" value="Verify" />
+            <a href="login.html">LOG-IN &#8594;</a>
+        </div>
+      </div>
+      <div class="error" id="error"></div>
+    </div>
+    <script src="javascripts/recover.js"></script>
+  </body>
+</html>

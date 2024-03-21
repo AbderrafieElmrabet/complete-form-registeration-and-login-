@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Page</title>
+    <link rel="stylesheet" href="stylesheets/login.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="image"></div>
+      <div class="regbox">
+        <div class="form">
+          <h1>Log In</h1>
+          <p>Email</p>
+          <input class="textinput" type="email" name="email" id="email" placeholder="Email" />
+          <p>Password</p>
+          <input class="textinput" type="password" name="password" id="password" placeholder="Password" />
+          <div class="signbtn">
+            <input id="logbtn" class="logbtn" type="submit" name="submit" value="Log-In" />
+            <a href="register.html">SIGN-IN ! &#8594;</a>
+          </div>
+          <div class="response">
+            <div class="error" id="error"></div><a id="forgot" href="recover.html"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="javascripts/login.js"></script>
+  </body>
+</html>
